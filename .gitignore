@@ -1,0 +1,22 @@
+#ignore ltspice log files
+*.log
+*.plt
+*.raw
+*.net
+#kicad files
+*.bak
+*.kicad_pcb-bak
+*fp-info-cache
+#firmware files
+*.o
+*.d
+*.lst
+*.hex
+*.elf
+*.tmp
+*.map
+*.bin
+
+*.pyc
+#cvs backup files
+*.csv#
