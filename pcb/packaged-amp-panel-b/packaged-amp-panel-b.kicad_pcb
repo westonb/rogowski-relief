@@ -1,0 +1,148 @@
+(kicad_pcb (version 20211014) (generator pcbnew)
+
+  (general
+    (thickness 1.6)
+  )
+
+  (paper "A4")
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user "B.Silkscreen")
+    (37 "F.SilkS" user "F.Silkscreen")
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
+    (42 "Eco1.User" user "User.Eco1")
+    (43 "Eco2.User" user "User.Eco2")
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user "B.Courtyard")
+    (47 "F.CrtYd" user "F.Courtyard")
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+    (50 "User.1" user)
+    (51 "User.2" user)
+    (52 "User.3" user)
+    (53 "User.4" user)
+    (54 "User.5" user)
+    (55 "User.6" user)
+    (56 "User.7" user)
+    (57 "User.8" user)
+    (58 "User.9" user)
+  )
+
+  (setup
+    (pad_to_mask_clearance 0)
+    (pcbplotparams
+      (layerselection 0x00010fc_ffffffff)
+      (disableapertmacros false)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (svguseinch false)
+      (svgprecision 6)
+      (excludeedgelayer true)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (sketchpadsonfab false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 0)
+      (scaleselection 1)
+      (outputdirectory "panel-b-gerbers/")
+    )
+  )
+
+  (net 0 "")
+
+  (gr_rect (start 149.75 101.5) (end 159.75 97) (layer "F.SilkS") (width 0) (fill solid) (tstamp 4daf74b5-1343-41fe-b0d2-f2b4646ee7f9))
+  (gr_rect (start 149.75 108) (end 159.75 103.5) (layer "F.SilkS") (width 0) (fill solid) (tstamp e1fbc61b-6553-46cd-a95e-a8e14e869c0e))
+  (gr_rect (start 149.75 114.5) (end 159.75 110) (layer "F.SilkS") (width 0) (fill solid) (tstamp eb8819d3-c70c-4c5f-918b-67ab0338399e))
+  (gr_circle (center 115.25 101.75) (end 115.5 101.75) (layer "B.Mask") (width 0.15) (fill solid) (tstamp e30b9f1d-e929-45db-b0a5-748f4764cede))
+  (gr_circle (center 115.25 101.75) (end 115.5 101.75) (layer "F.Mask") (width 0.15) (fill solid) (tstamp 545891fd-6aea-4141-89c5-07462356e449))
+  (gr_line (start 93.723398 117.273398) (end 162.723398 117.273398) (layer "Edge.Cuts") (width 0.2) (tstamp 08ca19e7-126c-4e3e-9bc9-302ae8dcafb1))
+  (gr_arc (start 132.673398 98) (mid 132.966291 97.292893) (end 133.673398 97) (layer "Edge.Cuts") (width 0.2) (tstamp 11f34665-1279-4bf6-bd22-d933d797e8c6))
+  (gr_line (start 133.673398 97) (end 144.773398 97) (layer "Edge.Cuts") (width 0.2) (tstamp 30d61d29-5ba4-4918-8021-db6f7e0dcdd2))
+  (gr_arc (start 162.723398 93.026601) (mid 163.411695 93.311703) (end 163.696796 94) (layer "Edge.Cuts") (width 0.2) (tstamp 42ff0537-817f-490a-96af-c0385e950969))
+  (gr_line (start 144.773398 108.6) (end 133.673398 108.6) (layer "Edge.Cuts") (width 0.2) (tstamp 49d3b547-81d0-4e97-9ecb-64c0d6f18b92))
+  (gr_arc (start 133.673398 108.6) (mid 132.966291 108.307107) (end 132.673398 107.6) (layer "Edge.Cuts") (width 0.2) (tstamp 4a843f1f-94db-4aa4-b17a-66f251f12ca2))
+  (gr_line (start 145.773398 98) (end 145.773398 107.6) (layer "Edge.Cuts") (width 0.2) (tstamp 4ddb6f7a-5d56-46e0-a1b2-db34532060d4))
+  (gr_line (start 92.75 94) (end 92.75 116.3) (layer "Edge.Cuts") (width 0.2) (tstamp 5515c40b-8312-4b08-b816-1072043798d9))
+  (gr_arc (start 144.773398 97) (mid 145.480505 97.292893) (end 145.773398 98) (layer "Edge.Cuts") (width 0.2) (tstamp 5cbc151d-3bd1-4556-8229-5e8508989731))
+  (gr_line (start 132.673398 107.6) (end 132.673398 98) (layer "Edge.Cuts") (width 0.2) (tstamp 5fa2c293-5dec-4709-a57a-c7fe7d0afb4d))
+  (gr_line (start 162.723398 93.026601) (end 93.723398 93.026601) (layer "Edge.Cuts") (width 0.2) (tstamp 63532680-9d19-4467-9bac-fd5fb076bb5f))
+  (gr_circle (center 110.973398 101.9) (end 114.223398 101.9) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 6805ca3d-92e0-4445-bf07-febf40f896c3))
+  (gr_arc (start 92.75 94) (mid 93.035101 93.311703) (end 93.723398 93.026601) (layer "Edge.Cuts") (width 0.2) (tstamp 6e6cb713-cfbe-4f0d-b153-039a2d9245a2))
+  (gr_arc (start 145.773398 107.6) (mid 145.480505 108.307107) (end 144.773398 108.6) (layer "Edge.Cuts") (width 0.2) (tstamp 832b5160-e602-4f3e-b05a-e10f561f112c))
+  (gr_line (start 163.696796 116.3) (end 163.696796 94) (layer "Edge.Cuts") (width 0.2) (tstamp 84ea2f16-a240-4698-978b-9ff407cc3404))
+  (gr_arc (start 93.723398 117.273398) (mid 93.035101 116.988297) (end 92.75 116.3) (layer "Edge.Cuts") (width 0.2) (tstamp 9d6c6349-fe7e-4c3b-85c7-e1b4edff514b))
+  (gr_arc (start 163.696796 116.3) (mid 163.411695 116.988297) (end 162.723398 117.273398) (layer "Edge.Cuts") (width 0.2) (tstamp b8c980b1-ae3a-487b-bae0-e37424fa8691))
+  (gr_circle (center 111 102) (end 116.75 102) (layer "F.Fab") (width 0.1) (fill none) (tstamp 0d86f74b-00af-42a0-98e3-cf160b52062a))
+  (gr_line (start 94.75 115.25) (end 94.75 95) (layer "F.Fab") (width 0.1) (tstamp 16cef1b3-561c-4293-b2ba-0ebae4f875e8))
+  (gr_line (start 94.75 115.25) (end 161.75 115.25) (layer "F.Fab") (width 0.1) (tstamp 3a78405f-94b4-4881-ab8e-60f3ae876851))
+  (gr_line (start 94.75 95) (end 161.75 95) (layer "F.Fab") (width 0.1) (tstamp 6bd21d06-407a-4207-a6e2-02de407ff91c))
+  (gr_line (start 161.75 95) (end 161.75 115.25) (layer "F.Fab") (width 0.1) (tstamp e328ed6c-d73b-401f-b0fa-489852650b7e))
+  (gr_text "JLCJLCJLCJLC" (at 139.5 95) (layer "B.SilkS") (tstamp cd46d387-7fc1-4642-9da9-7e42ee6925c2)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "-3dB HF" (at 154.75 102.5) (layer "F.SilkS") (tstamp 3252611d-2aea-4fe8-acec-ca3d2583e322)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "+/- 4V into 1M Ω\n+/- 2V into 50 Ω" (at 111 111.25) (layer "F.SilkS") (tstamp 7e58b649-2e82-4ece-8a02-eff760020409)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "-3dB LF" (at 155 96.25) (layer "F.SilkS") (tstamp 91e75c76-cbba-4753-b56a-19296d206917)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "5V 0.25A" (at 139.25 111) (layer "F.SilkS") (tstamp a3c6e5a2-93d6-4009-848a-0743843948c4)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "V/A" (at 154.75 109) (layer "F.SilkS") (tstamp a59c8ceb-f551-4cf8-abd6-45c0b21e5ed8)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (via (at 111 106) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 0) (tstamp 5e4680ee-a76b-4175-84f0-634fe7e690e0))
+
+  (group "" (id 0b56cc5e-5fb0-4bdd-bcc8-921981362a7b)
+    (members
+      08ca19e7-126c-4e3e-9bc9-302ae8dcafb1
+      11f34665-1279-4bf6-bd22-d933d797e8c6
+      30d61d29-5ba4-4918-8021-db6f7e0dcdd2
+      42ff0537-817f-490a-96af-c0385e950969
+      49d3b547-81d0-4e97-9ecb-64c0d6f18b92
+      4a843f1f-94db-4aa4-b17a-66f251f12ca2
+      4ddb6f7a-5d56-46e0-a1b2-db34532060d4
+      5515c40b-8312-4b08-b816-1072043798d9
+      5cbc151d-3bd1-4556-8229-5e8508989731
+      5fa2c293-5dec-4709-a57a-c7fe7d0afb4d
+      63532680-9d19-4467-9bac-fd5fb076bb5f
+      6805ca3d-92e0-4445-bf07-febf40f896c3
+      6e6cb713-cfbe-4f0d-b153-039a2d9245a2
+      832b5160-e602-4f3e-b05a-e10f561f112c
+      84ea2f16-a240-4698-978b-9ff407cc3404
+      9d6c6349-fe7e-4c3b-85c7-e1b4edff514b
+      b8c980b1-ae3a-487b-bae0-e37424fa8691
+    )
+  )
+)
