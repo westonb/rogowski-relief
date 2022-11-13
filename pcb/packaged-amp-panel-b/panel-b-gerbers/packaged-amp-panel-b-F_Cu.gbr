@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,6.0.7-f9a2dced07~116~ubuntu20.04.1*%
-%TF.CreationDate,2022-10-10T13:49:03-07:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,6.0.8-f2edbf62ab~116~ubuntu20.04.1*%
+%TF.CreationDate,2022-11-12T19:24:57-08:00*%
 %TF.ProjectId,packaged-amp-panel-b,7061636b-6167-4656-942d-616d702d7061,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 6.0.7-f9a2dced07~116~ubuntu20.04.1) date 2022-10-10 13:49:03*
+G04 Created by KiCad (PCBNEW 6.0.8-f2edbf62ab~116~ubuntu20.04.1) date 2022-11-12 19:24:57*
 %MOMM*%
 %LPD*%
 G01*
@@ -17,6 +17,6 @@ G04 APERTURE LIST*
 G04 APERTURE END LIST*
 D10*
 %TO.N,*%
-X111000000Y-106000000D03*
+X104500000Y-72300000D03*
 %TD*%
 M02*
