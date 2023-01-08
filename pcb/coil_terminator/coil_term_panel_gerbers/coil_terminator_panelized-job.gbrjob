@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.9-8da3e8f707~117~ubuntu20.04.1"
+      "Version": "6.0.10-86aedd382b~118~ubuntu20.04.1"
     },
-    "CreationDate": "2022-12-05T14:07:03-08:00"
+    "CreationDate": "2023-01-07T17:55:22-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "coil_terminator",
+      "Name": "coil_terminator_panelized",
       "GUID": "636f696c-5f74-4657-926d-696e61746f72",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 10.1,
-      "Y": 6.6
+      "X": 76.7,
+      "Y": 76.1
     },
     "LayerNumber": 2,
     "BoardThickness": 0.8,
@@ -24,56 +24,61 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.127,
-      "PadToTrack": 0.127,
-      "TrackToTrack": 0.127,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "coil_terminator-F_Cu.gbr",
+      "Path": "coil_terminator_panelized-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "coil_terminator-B_Cu.gbr",
+      "Path": "coil_terminator_panelized-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "coil_terminator-F_Paste.gbr",
+      "Path": "coil_terminator_panelized-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "coil_terminator-B_Paste.gbr",
+      "Path": "coil_terminator_panelized-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "coil_terminator-F_Silkscreen.gbr",
+      "Path": "coil_terminator_panelized-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "coil_terminator-B_Silkscreen.gbr",
+      "Path": "coil_terminator_panelized-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "coil_terminator-F_Mask.gbr",
+      "Path": "coil_terminator_panelized-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "coil_terminator-B_Mask.gbr",
+      "Path": "coil_terminator_panelized-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "coil_terminator-Edge_Cuts.gbr",
+      "Path": "coil_terminator_panelized-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "coil_terminator_panelized-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

@@ -690,18 +690,18 @@
   (gr_circle (center 108.45 68.45) (end 108.7 68.45) (layer "F.Mask") (width 0.15) (fill solid) (tstamp 545891fd-6aea-4141-89c5-07462356e449))
   (gr_line (start 152.555626 58.25) (end 95.555626 58.25) (layer "Edge.Cuts") (width 0.2) (tstamp 07d800d4-d1db-46ff-ae85-79cface2e4d4))
   (gr_arc (start 95.555626 80.95) (mid 94.494966 80.51066) (end 94.055626 79.45) (layer "Edge.Cuts") (width 0.2) (tstamp 0cdfe85b-4f6e-4881-ae9b-b3a882345efb))
-  (gr_line (start 122.95 63.8) (end 134.05 63.8) (layer "Edge.Cuts") (width 0.2) (tstamp 0ddb953f-205f-442b-b848-cf6a84317acc))
-  (gr_line (start 134.8 64.55) (end 134.8 74.15) (layer "Edge.Cuts") (width 0.2) (tstamp 3ecff5c9-24c9-4b4c-91e3-d4a830dd4dd0))
-  (gr_arc (start 122.2 64.55) (mid 122.41967 64.01967) (end 122.95 63.8) (layer "Edge.Cuts") (width 0.2) (tstamp 40e926c5-3a86-445a-9f98-5d4e13723fc0))
+  (gr_line (start 122.95 64.2) (end 134.05 64.2) (layer "Edge.Cuts") (width 0.2) (tstamp 0ddb953f-205f-442b-b848-cf6a84317acc))
+  (gr_line (start 134.8 64.95) (end 134.8 74.55) (layer "Edge.Cuts") (width 0.2) (tstamp 3ecff5c9-24c9-4b4c-91e3-d4a830dd4dd0))
+  (gr_arc (start 122.2 64.95) (mid 122.41967 64.41967) (end 122.95 64.2) (layer "Edge.Cuts") (width 0.2) (tstamp 40e926c5-3a86-445a-9f98-5d4e13723fc0))
   (gr_line (start 95.555626 80.95) (end 152.555626 80.95) (layer "Edge.Cuts") (width 0.2) (tstamp 5358da93-8fd2-4dae-9497-ff676879ac9e))
   (gr_line (start 94.055626 59.75) (end 94.055626 79.45) (layer "Edge.Cuts") (width 0.2) (tstamp 758d1bd0-f422-43f7-91fd-b4af91de7a5b))
-  (gr_line (start 122.2 74.15) (end 122.2 64.55) (layer "Edge.Cuts") (width 0.2) (tstamp 8144efa2-cec2-46cd-8eab-3e82ee343a28))
-  (gr_arc (start 134.05 63.8) (mid 134.580347 64.019661) (end 134.8 64.55) (layer "Edge.Cuts") (width 0.2) (tstamp 8cc84535-8f6b-4ccb-b4cf-62f6cd0d6d7e))
-  (gr_arc (start 134.8 74.15) (mid 134.580329 74.680321) (end 134.05 74.9) (layer "Edge.Cuts") (width 0.2) (tstamp 97031a12-d7c5-4715-afb1-3668add88d16))
+  (gr_line (start 122.2 74.55) (end 122.2 64.95) (layer "Edge.Cuts") (width 0.2) (tstamp 8144efa2-cec2-46cd-8eab-3e82ee343a28))
+  (gr_arc (start 134.05 64.2) (mid 134.58033 64.41967) (end 134.8 64.95) (layer "Edge.Cuts") (width 0.2) (tstamp 8cc84535-8f6b-4ccb-b4cf-62f6cd0d6d7e))
+  (gr_arc (start 134.8 74.55) (mid 134.58033 75.08033) (end 134.05 75.3) (layer "Edge.Cuts") (width 0.2) (tstamp 97031a12-d7c5-4715-afb1-3668add88d16))
   (gr_arc (start 154.055626 79.45) (mid 153.616286 80.51066) (end 152.555626 80.95) (layer "Edge.Cuts") (width 0.2) (tstamp 98678171-d971-4195-bd43-daab671d4ca8))
-  (gr_arc (start 122.95 74.9) (mid 122.41967 74.68033) (end 122.2 74.15) (layer "Edge.Cuts") (width 0.2) (tstamp 9c24e488-9c8d-49b2-9078-ea3751022922))
+  (gr_arc (start 122.95 75.3) (mid 122.41967 75.08033) (end 122.2 74.55) (layer "Edge.Cuts") (width 0.2) (tstamp 9c24e488-9c8d-49b2-9078-ea3751022922))
   (gr_arc (start 152.555626 58.25) (mid 153.616286 58.68934) (end 154.055626 59.75) (layer "Edge.Cuts") (width 0.2) (tstamp a7e9c2fe-3664-4278-9084-35ef16da3316))
-  (gr_line (start 134.05 74.9) (end 122.95 74.9) (layer "Edge.Cuts") (width 0.2) (tstamp c01e6209-d77a-466c-bdb7-680bf35e795a))
+  (gr_line (start 134.05 75.3) (end 122.95 75.3) (layer "Edge.Cuts") (width 0.2) (tstamp c01e6209-d77a-466c-bdb7-680bf35e795a))
   (gr_circle (center 104.5 68.45) (end 107.75 68.45) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp d7eaec30-a976-4998-a849-895c3e24c2d4))
   (gr_arc (start 94.055626 59.75) (mid 94.494966 58.68934) (end 95.555626 58.25) (layer "Edge.Cuts") (width 0.2) (tstamp f952d511-d473-4134-9274-6869ab0e1b67))
   (gr_line (start 154.055626 79.45) (end 154.055626 59.75) (layer "Edge.Cuts") (width 0.2) (tstamp ff6fc7e0-808d-45fd-aa64-d0c7724f8d98))
@@ -711,34 +711,13 @@
   (gr_text "Beefield Labs" (at 144.7 72.4) (layer "F.SilkS") (tstamp 63ad4c53-c6ca-4e9c-a3d7-890544b20a6f)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "+/- 4V into 1M Ω\n+/- 2V into 50 Ω" (at 104.6 76.7) (layer "F.SilkS") (tstamp 7e58b649-2e82-4ece-8a02-eff760020409)
+  (gr_text "+/- 4V into 1M Ω\n" (at 104.6 75.75) (layer "F.SilkS") (tstamp 7e58b649-2e82-4ece-8a02-eff760020409)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "5V 0.25A" (at 128.9 77.4) (layer "F.SilkS") (tstamp a3c6e5a2-93d6-4009-848a-0743843948c4)
+  (gr_text "5V 0.4A" (at 128.9 77.4) (layer "F.SilkS") (tstamp a3c6e5a2-93d6-4009-848a-0743843948c4)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
   (via (at 104.5 72.3) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 0) (tstamp 5e4680ee-a76b-4175-84f0-634fe7e690e0))
 
-  (group "" (id f9fdcc45-efb5-407b-b873-9a2d7f0315bf)
-    (members
-      07d800d4-d1db-46ff-ae85-79cface2e4d4
-      0cdfe85b-4f6e-4881-ae9b-b3a882345efb
-      0ddb953f-205f-442b-b848-cf6a84317acc
-      3ecff5c9-24c9-4b4c-91e3-d4a830dd4dd0
-      40e926c5-3a86-445a-9f98-5d4e13723fc0
-      5358da93-8fd2-4dae-9497-ff676879ac9e
-      758d1bd0-f422-43f7-91fd-b4af91de7a5b
-      8144efa2-cec2-46cd-8eab-3e82ee343a28
-      8cc84535-8f6b-4ccb-b4cf-62f6cd0d6d7e
-      97031a12-d7c5-4715-afb1-3668add88d16
-      98678171-d971-4195-bd43-daab671d4ca8
-      9c24e488-9c8d-49b2-9078-ea3751022922
-      a7e9c2fe-3664-4278-9084-35ef16da3316
-      c01e6209-d77a-466c-bdb7-680bf35e795a
-      d7eaec30-a976-4998-a849-895c3e24c2d4
-      f952d511-d473-4134-9274-6869ab0e1b67
-      ff6fc7e0-808d-45fd-aa64-d0c7724f8d98
-    )
-  )
 )

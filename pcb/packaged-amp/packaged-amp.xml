@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/wbraun/Projects/rogowski-relief/pcb/packaged-amp/packaged-amp.kicad_sch</source>
-    <date>Sun 13 Nov 2022 07:08:24 PM PST</date>
-    <tool>Eeschema 6.0.8-f2edbf62ab~116~ubuntu20.04.1</tool>
+    <date>Sat 07 Jan 2023 06:08:24 PM PST</date>
+    <tool>Eeschema 6.0.10-86aedd382b~118~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -25,60 +25,6 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>DNP</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>cf608e8a-76b7-4615-a88f-d53217e024ac</tstamps>
-    </comp>
-    <comp ref="C2">
-      <value>10u</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
-      <fields>
-        <field name="JLC_MPN">C13585</field>
-        <field name="MPN">CL31A106KBHNNNE</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL31A106KBHNNNE"/>
-      <property name="JLC_MPN" value="C13585"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>51a96583-ae72-4317-82b2-cb717da2afc8</tstamps>
-    </comp>
-    <comp ref="C3">
-      <value>10u</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
-      <fields>
-        <field name="JLC_MPN">C13585</field>
-        <field name="MPN">CL31A106KBHNNNE</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL31A106KBHNNNE"/>
-      <property name="JLC_MPN" value="C13585"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>15aa718d-3eab-4553-b056-669fbc30a7b7</tstamps>
-    </comp>
-    <comp ref="C4">
-      <value>10u</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
-      <fields>
-        <field name="JLC_MPN">C13585</field>
-        <field name="MPN">CL31A106KBHNNNE</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL31A106KBHNNNE"/>
-      <property name="JLC_MPN" value="C13585"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d7faa0f2-c5ce-49d0-84d9-6eb56c57bd59</tstamps>
-    </comp>
-    <comp ref="C5">
       <value>0.47u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -89,11 +35,11 @@
       <property name="MPN" value="CL10B474KA8NNNC"/>
       <property name="JLC_MPN" value="C1623"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>573501c4-2a2c-47f0-b344-a3dfca00181d</tstamps>
     </comp>
-    <comp ref="C6">
+    <comp ref="C2">
       <value>0.47u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -104,9 +50,69 @@
       <property name="MPN" value="CL10B474KA8NNNC"/>
       <property name="JLC_MPN" value="C1623"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e7d5b44b-e5ee-4561-8b73-75750f1c9a5b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.47u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C1623</field>
+        <field name="MPN">CL10B474KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL10B474KA8NNNC"/>
+      <property name="JLC_MPN" value="C1623"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16143472-9f71-4c79-869c-c620abab779c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.47u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C1623</field>
+        <field name="MPN">CL10B474KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL10B474KA8NNNC"/>
+      <property name="JLC_MPN" value="C1623"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7276881-0d36-413f-be87-cd6bb0a05fad</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C13585</field>
+        <field name="MPN">CL31A106KBHNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31A106KBHNNNE"/>
+      <property name="JLC_MPN" value="C13585"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7faa0f2-c5ce-49d0-84d9-6eb56c57bd59</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>180p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C527047</field>
+        <field name="MPN">CC0603FRNPO9BN181</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0603FRNPO9BN181"/>
+      <property name="JLC_MPN" value="C527047"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a8d6542-f73f-42ef-a64a-26eb6165bece</tstamps>
     </comp>
     <comp ref="C7">
       <value>10u</value>
@@ -119,11 +125,64 @@
       <property name="MPN" value="CL31A106KBHNNNE"/>
       <property name="JLC_MPN" value="C13585"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7d4a887a-d73f-4dd2-a06d-d736b501436f</tstamps>
+      <tstamps>51a96583-ae72-4317-82b2-cb717da2afc8</tstamps>
     </comp>
     <comp ref="C8">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C1634</field>
+        <field name="MPN">CL10C100JB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL10C100JB8NNNC"/>
+      <property name="JLC_MPN" value="C1634"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32f992f2-c2b3-478c-8bd8-1054fb2d4c40</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C9196</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLC_MPN" value="C9196"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>357f2b2f-455b-4720-95ff-11f09cb0aa51</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C1634</field>
+        <field name="MPN">CL10C100JB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLC_MPN" value="C1634"/>
+      <property name="MPN" value="CL10C100JB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf608e8a-76b7-4615-a88f-d53217e024ac</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>DNP</value>
+      <footprint>wbraun_smd:C_Trimmer_GKG_6mm</footprint>
+      <libsource lib="Device" part="C_Trim" description="Trimmable capacitor"/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c3e966b-aed7-4c74-8614-205e3766fd1c</tstamps>
+    </comp>
+    <comp ref="C12">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
@@ -134,77 +193,24 @@
       <property name="MPN" value="CL31A106KBHNNNE"/>
       <property name="JLC_MPN" value="C13585"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>15e8616d-4e12-4728-ae1e-f7351b438ee1</tstamps>
-    </comp>
-    <comp ref="C9">
-      <value>100p</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="JLC_MPN">C107033</field>
-        <field name="MPN">CC0603JRNPO0BN101</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CC0603JRNPO0BN101"/>
-      <property name="JLC_MPN" value="C107033"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0a8d6542-f73f-42ef-a64a-26eb6165bece</tstamps>
-    </comp>
-    <comp ref="C10">
-      <value>DNP</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>32f992f2-c2b3-478c-8bd8-1054fb2d4c40</tstamps>
-    </comp>
-    <comp ref="C11">
-      <value>12-60p</value>
-      <footprint>wbraun_smd:C_Trimmer_GKG_6mm</footprint>
-      <fields>
-        <field name="MPN">GKG60015</field>
-      </fields>
-      <libsource lib="Device" part="C_Trim" description="Trimmable capacitor"/>
-      <property name="MPN" value="GKG60015"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3c3e966b-aed7-4c74-8614-205e3766fd1c</tstamps>
-    </comp>
-    <comp ref="C12">
-      <value>0.47u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="JLC_MPN">C1623</field>
-        <field name="MPN">CL10B474KA8NNNC</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL10B474KA8NNNC"/>
-      <property name="JLC_MPN" value="C1623"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>16143472-9f71-4c79-869c-c620abab779c</tstamps>
+      <tstamps>15aa718d-3eab-4553-b056-669fbc30a7b7</tstamps>
     </comp>
     <comp ref="C13">
-      <value>0.47u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
-        <field name="JLC_MPN">C1623</field>
-        <field name="MPN">CL10B474KA8NNNC</field>
+        <field name="JLC_MPN">C13585</field>
+        <field name="MPN">CL31A106KBHNNNE</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL10B474KA8NNNC"/>
-      <property name="JLC_MPN" value="C1623"/>
+      <property name="MPN" value="CL31A106KBHNNNE"/>
+      <property name="JLC_MPN" value="C13585"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f7276881-0d36-413f-be87-cd6bb0a05fad</tstamps>
+      <tstamps>7d4a887a-d73f-4dd2-a06d-d736b501436f</tstamps>
     </comp>
     <comp ref="C14">
       <value>330p</value>
@@ -216,11 +222,41 @@
       <property name="MPN" value=""/>
       <property name="JLC_MPN" value="C1664"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>89f40c20-d673-417f-8676-6ee5ec4d8eb9</tstamps>
     </comp>
     <comp ref="C15">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C13585</field>
+        <field name="MPN">CL31A106KBHNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31A106KBHNNNE"/>
+      <property name="JLC_MPN" value="C13585"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15e8616d-4e12-4728-ae1e-f7351b438ee1</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C13585</field>
+        <field name="MPN">CL31A106KBHNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL31A106KBHNNNE"/>
+      <property name="JLC_MPN" value="C13585"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>465a1576-7e1c-4fd5-b502-1658618fbe0f</tstamps>
+    </comp>
+    <comp ref="C17">
       <value>47n</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
@@ -231,48 +267,11 @@
       <property name="MPN" value="GRM31M5C1H473JA01L"/>
       <property name="JLC_MPN" value="C21812"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5e92cbba-b24f-4043-bb85-693bc26eb812</tstamps>
     </comp>
-    <comp ref="C16">
-      <value>DNP</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>413d5c14-3a3e-4c6b-9f16-e7e28234e898</tstamps>
-    </comp>
-    <comp ref="C17">
-      <value>1n</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
-      <fields>
-        <field name="JLC_MPN">C9196</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLC_MPN" value="C9196"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>357f2b2f-455b-4720-95ff-11f09cb0aa51</tstamps>
-    </comp>
     <comp ref="C18">
-      <value>10u</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
-      <fields>
-        <field name="JLC_MPN">C13585</field>
-        <field name="MPN">CL31A106KBHNNNE</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MPN" value="CL31A106KBHNNNE"/>
-      <property name="JLC_MPN" value="C13585"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>465a1576-7e1c-4fd5-b502-1658618fbe0f</tstamps>
-    </comp>
-    <comp ref="C19">
       <value>10p</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -283,11 +282,20 @@
       <property name="MPN" value="CL10C100JB8NNNC"/>
       <property name="JLC_MPN" value="C1634"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>48c17ddb-6c7a-463f-adcb-86ded0191b21</tstamps>
     </comp>
-    <comp ref="C28">
+    <comp ref="C19">
+      <value>DNP</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>413d5c14-3a3e-4c6b-9f16-e7e28234e898</tstamps>
+    </comp>
+    <comp ref="C20">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
@@ -298,11 +306,11 @@
       <property name="MPN" value="CL31A106KBHNNNE"/>
       <property name="JLC_MPN" value="C13585"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>52c9ca72-7116-4583-8efc-49d15957aede</tstamps>
     </comp>
-    <comp ref="C29">
+    <comp ref="C21">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
@@ -313,11 +321,26 @@
       <property name="MPN" value="CL31A106KBHNNNE"/>
       <property name="JLC_MPN" value="C13585"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cf4083bd-0c6b-40b7-8b0b-5422239a9cdb</tstamps>
     </comp>
-    <comp ref="C30">
+    <comp ref="C22">
+      <value>47p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C1671</field>
+        <field name="MPN">CL10C470JB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL10C470JB8NNNC"/>
+      <property name="JLC_MPN" value="C1671"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1daf2e5d-85c6-4f8d-892a-45b1f6313bf0</tstamps>
+    </comp>
+    <comp ref="C23">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
@@ -328,11 +351,11 @@
       <property name="MPN" value="CL31A106KBHNNNE"/>
       <property name="JLC_MPN" value="C13585"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8707661a-4654-483f-9cf4-5745e6950d02</tstamps>
     </comp>
-    <comp ref="C31">
+    <comp ref="C24">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
       <fields>
@@ -343,24 +366,24 @@
       <property name="MPN" value="CL31A106KBHNNNE"/>
       <property name="JLC_MPN" value="C13585"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c261a625-58d2-409b-bff3-58dc0b0a8a1e</tstamps>
     </comp>
     <comp ref="D1">
-      <value>1N4148</value>
-      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <value>P6SMB6.8CA/TR13</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
       <fields>
-        <field name="JLC_MPN">C2128</field>
-        <field name="MPN">1N4148WS RRG</field>
+        <field name="JLC_MPN">C78395</field>
+        <field name="MPN">P6SMB6.8CA/TR13</field>
       </fields>
-      <libsource lib="Device" part="D" description="Diode"/>
-      <property name="MPN" value="1N4148WS RRG"/>
-      <property name="JLC_MPN" value="C2128"/>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MPN" value="P6SMB6.8CA/TR13"/>
+      <property name="JLC_MPN" value="C78395"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e8793ee5-cc4d-4bd3-b83c-192f6e95eaee</tstamps>
+      <tstamps>7e9170c6-8511-4a64-9724-2e5d8eff64f6</tstamps>
     </comp>
     <comp ref="D2">
       <value>1N4148</value>
@@ -373,11 +396,26 @@
       <property name="MPN" value="1N4148WS RRG"/>
       <property name="JLC_MPN" value="C2128"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8793ee5-cc4d-4bd3-b83c-192f6e95eaee</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323F</footprint>
+      <fields>
+        <field name="JLC_MPN">C2128</field>
+        <field name="MPN">1N4148WS RRG</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="MPN" value="1N4148WS RRG"/>
+      <property name="JLC_MPN" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7139a3c4-dc2f-40da-8732-88ec1ff53164</tstamps>
     </comp>
-    <comp ref="D6">
+    <comp ref="D4">
       <value>WP934CB/GD</value>
       <footprint>wbraun_smd:LED-T1-RIGHT-ANGLE_4.6x4.4mm</footprint>
       <fields>
@@ -388,31 +426,16 @@
       <property name="JLC_MPN" value="C2929606"/>
       <property name="MPN" value="WP934CB/GD"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4732616b-6b7f-412a-99e6-be159a02e6e4</tstamps>
-    </comp>
-    <comp ref="D11">
-      <value>P6SMB6.8CA/TR13</value>
-      <footprint>Diode_SMD:D_SMB</footprint>
-      <fields>
-        <field name="JLC_MPN">C78395</field>
-        <field name="MPN">P6SMB6.8CA/TR13</field>
-      </fields>
-      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
-      <property name="MPN" value="P6SMB6.8CA/TR13"/>
-      <property name="JLC_MPN" value="C78395"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7e9170c6-8511-4a64-9724-2e5d8eff64f6</tstamps>
     </comp>
     <comp ref="E1">
       <value>SparkGap</value>
       <footprint>wbraun_smd:Spark_Gap</footprint>
       <libsource lib="Device" part="SparkGap" description="Spark gap"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5c7a037c-f1db-4d6c-b4ff-fe4e59c94c69</tstamps>
     </comp>
@@ -421,22 +444,22 @@
       <footprint>wbraun_smd:Spark_Gap</footprint>
       <libsource lib="Device" part="SparkGap" description="Spark gap"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>872cc0be-8328-4ac3-81e7-21be1b66713f</tstamps>
     </comp>
     <comp ref="F1">
       <value>0.5A</value>
-      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <footprint>Fuse:Fuse_0603_1608Metric</footprint>
       <fields>
-        <field name="JLC_MPN">C163512</field>
-        <field name="MPN">0ZCJ0050FF2G</field>
+        <field name="JLC_MPN">C206991</field>
+        <field name="MPN">0467.750NRHF</field>
       </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
-      <property name="MPN" value="0ZCJ0050FF2G"/>
-      <property name="JLC_MPN" value="C163512"/>
+      <property name="MPN" value="0467.750NRHF"/>
+      <property name="JLC_MPN" value="C206991"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4eeb5c54-15bd-4c0d-976c-f83db75d3a30</tstamps>
     </comp>
@@ -451,7 +474,7 @@
       <property name="MPN" value="742792040"/>
       <property name="JLC_MPN" value="C1015"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>636c6f6d-8f91-40db-8a47-ccf99ca51282</tstamps>
     </comp>
@@ -466,7 +489,7 @@
       <property name="MPN" value="742792040"/>
       <property name="JLC_MPN" value="C1015"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5fded28d-57a5-4e0a-8e7d-641bb1e5ba2a</tstamps>
     </comp>
@@ -481,7 +504,7 @@
       <property name="MPN" value="4532-075-LF"/>
       <property name="JLC_MPN" value="C522627"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>24f0bd3e-4086-4f58-a70f-851736543fd3</tstamps>
     </comp>
@@ -490,7 +513,7 @@
       <footprint>wbraun_smd:beefield_logo_small</footprint>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>18747dec-2b17-4d1f-bbe6-b9f44efb38f1</tstamps>
     </comp>
@@ -499,7 +522,7 @@
       <footprint>wbraun_smd:JLC_TOOLING_HOLE</footprint>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e299ffea-9640-45d5-9f0a-55f2b061e6ce</tstamps>
     </comp>
@@ -508,7 +531,7 @@
       <footprint>wbraun_smd:JLC_TOOLING_HOLE</footprint>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>aec5ea6e-4bc8-49b6-9982-0d7206134f67</tstamps>
     </comp>
@@ -517,7 +540,7 @@
       <footprint>wbraun_smd:JLC_TOOLING_HOLE</footprint>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a5c5ab35-3064-44a6-95bb-3831d60f9426</tstamps>
     </comp>
@@ -526,27 +549,11 @@
       <footprint>wbraun_smd:JLC_TOOLING_HOLE</footprint>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>483adb25-d727-470b-9504-e66cb6631f3e</tstamps>
     </comp>
-    <comp ref="J7">
-      <value>Conn_Coaxial</value>
-      <footprint>wbraun_smd:SMA_Molex_73251-2200_Horizontal</footprint>
-      <datasheet> ~</datasheet>
-      <fields>
-        <field name="JLC_MPN">C530662</field>
-        <field name="MPN">RF2-49B-T-00-50-G-HDW</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
-      <property name="MPN" value="RF2-49B-T-00-50-G-HDW"/>
-      <property name="JLC_MPN" value="C530662"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3fbdf705-aceb-4f83-a946-ae7f1ec39251</tstamps>
-    </comp>
-    <comp ref="J8">
+    <comp ref="J1">
       <value>USB_B</value>
       <footprint>wbraun_smd:USB_B_OST_USB-B1HSxx_Horizontal</footprint>
       <datasheet> ~</datasheet>
@@ -558,65 +565,97 @@
       <property name="MPN" value="USB-B1HSB6"/>
       <property name="JLC_MPN" value="C498173"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b0a3b497-0d20-4a23-9098-a1ccde3fb1b4</tstamps>
     </comp>
+    <comp ref="J2">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="JLC_MPN">C88373</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="MPN" value=""/>
+      <property name="JLC_MPN" value="C88373"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>178af988-1266-4810-be09-58852f378529</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_Coaxial</value>
+      <footprint>wbraun_smd:SMA_Molex_73251-2200_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="JLC_MPN">C1509208</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="MPN" value=""/>
+      <property name="JLC_MPN" value="C1509208"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fbdf705-aceb-4f83-a946-ae7f1ec39251</tstamps>
+    </comp>
     <comp ref="L1">
-      <value>DLW5BTM102SQ2L</value>
+      <value>DLW5BTM142SQ2L</value>
       <footprint>wbraun_smd:L_CommonModeChoke_Murata_DLW5BTM</footprint>
       <fields>
-        <field name="JLC_MPN">C70478</field>
+        <field name="JLC_MPN">C91596</field>
+        <field name="MPN">DLW5BTM142SQ2L</field>
       </fields>
       <libsource lib="Device" part="L_Ferrite_Coupled" description="Coupled inductor with ferrite core"/>
-      <property name="JLC_MPN" value="C70478"/>
+      <property name="JLC_MPN" value="C91596"/>
+      <property name="MPN" value="DLW5BTM142SQ2L"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d39a8f28-98fe-49d3-a8b8-45cabb222d37</tstamps>
     </comp>
     <comp ref="L2">
-      <value>10u</value>
+      <value>6.8u</value>
       <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
       <fields>
-        <field name="JLC_MPN">C21764</field>
-        <field name="MPN">NLCV32T-100K-EFD</field>
+        <field name="JLC_MPN">C250230</field>
+        <field name="MPN">NLCV32T-6R8M-EF</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="MPN" value="NLCV32T-100K-EFD"/>
-      <property name="JLC_MPN" value="C21764"/>
+      <property name="MPN" value="NLCV32T-6R8M-EF"/>
+      <property name="JLC_MPN" value="C250230"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>31839bf6-6612-491f-b2ce-c2ac3f072eeb</tstamps>
     </comp>
     <comp ref="L3">
-      <value>10u</value>
+      <value>6.8u</value>
       <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
       <fields>
-        <field name="JLC_MPN">C21764</field>
-        <field name="MPN">NLCV32T-100K-EFD</field>
+        <field name="JLC_MPN">C250230</field>
+        <field name="MPN">NLCV32T-6R8M-EF</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="MPN" value="NLCV32T-100K-EFD"/>
-      <property name="JLC_MPN" value="C21764"/>
+      <property name="MPN" value="NLCV32T-6R8M-EF"/>
+      <property name="JLC_MPN" value="C250230"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f67d3183-8621-4fe5-aa95-56da71394d2a</tstamps>
     </comp>
     <comp ref="L4">
-      <value>10u</value>
+      <value>6.8u</value>
       <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
       <fields>
-        <field name="JLC_MPN">C21764</field>
-        <field name="MPN">NLCV32T-100K-EFD</field>
+        <field name="JLC_MPN">C250230</field>
+        <field name="MPN">NLCV32T-6R8M-EF</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="MPN" value="NLCV32T-100K-EFD"/>
-      <property name="JLC_MPN" value="C21764"/>
+      <property name="MPN" value="NLCV32T-6R8M-EF"/>
+      <property name="JLC_MPN" value="C250230"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>11b4e4b8-7f96-4432-8057-3aec31d39582</tstamps>
     </comp>
@@ -625,20 +664,17 @@
       <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
       <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4e5ccf8b-f6e4-4c22-879f-4cc1a6919295</tstamps>
     </comp>
     <comp ref="PS1">
       <value>A0509S-2WR3</value>
       <footprint>Converter_DCDC:Converter_DCDC_XP_POWER-IHxxxxS_THT</footprint>
-      <fields>
-        <field name="JLC_MPN">C2827996</field>
-      </fields>
       <libsource lib="Converter_DCDC" part="IH0503S" description="XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 5V Input Voltage, SIP"/>
-      <property name="JLC_MPN" value="C2827996"/>
+      <property name="JLC_MPN" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9f90def2-dcba-4068-a880-b2a59392eb2e</tstamps>
     </comp>
@@ -652,39 +688,37 @@
       <property name="MPN" value=""/>
       <property name="JLC_MPN" value="C23182"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e4274881-c62c-462b-a0c1-88d98bb935e2</tstamps>
     </comp>
     <comp ref="R2">
-      <value>22k</value>
+      <value>47</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="JLC_MPN">C31850</field>
-        <field name="MPN">RMCF0603FG22K0</field>
+        <field name="JLC_MPN">C23182</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="RMCF0603FG22K0"/>
-      <property name="JLC_MPN" value="C31850"/>
+      <property name="MPN" value=""/>
+      <property name="JLC_MPN" value="C23182"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ea057df5-c70c-4213-864e-a801847a4bcc</tstamps>
+      <tstamps>7d57c794-5334-4272-a218-6b747413a920</tstamps>
     </comp>
     <comp ref="R3">
-      <value>22k</value>
+      <value>430</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="JLC_MPN">C31850</field>
-        <field name="MPN">RMCF0603FG22K0</field>
+        <field name="JLC_MPN">C23170</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="RMCF0603FG22K0"/>
-      <property name="JLC_MPN" value="C31850"/>
+      <property name="MPN" value=""/>
+      <property name="JLC_MPN" value="C23170"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3ff65579-996b-4e3d-9855-f652dbc57d8c</tstamps>
+      <tstamps>66a6c406-4181-4e55-9117-05d9e970ace7</tstamps>
     </comp>
     <comp ref="R4">
       <value>22k</value>
@@ -697,37 +731,39 @@
       <property name="MPN" value="RMCF0603FG22K0"/>
       <property name="JLC_MPN" value="C31850"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a07feb33-5dc0-4c1f-94cd-aa71a7f5cbcf</tstamps>
+      <tstamps>ea057df5-c70c-4213-864e-a801847a4bcc</tstamps>
     </comp>
     <comp ref="R5">
-      <value>360</value>
+      <value>22k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="JLC_MPN">C25194</field>
+        <field name="JLC_MPN">C31850</field>
+        <field name="MPN">RMCF0603FG22K0</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value=""/>
-      <property name="JLC_MPN" value="C25194"/>
+      <property name="MPN" value="RMCF0603FG22K0"/>
+      <property name="JLC_MPN" value="C31850"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>66a6c406-4181-4e55-9117-05d9e970ace7</tstamps>
+      <tstamps>3ff65579-996b-4e3d-9855-f652dbc57d8c</tstamps>
     </comp>
     <comp ref="R6">
-      <value>47</value>
+      <value>0</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="JLC_MPN">C23182</field>
+        <field name="JLC_MPN">C21189</field>
+        <field name="MPN">ERJ-3GEY0R00V</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value=""/>
-      <property name="JLC_MPN" value="C23182"/>
+      <property name="MPN" value="ERJ-3GEY0R00V"/>
+      <property name="JLC_MPN" value="C21189"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7d57c794-5334-4272-a218-6b747413a920</tstamps>
+      <tstamps>25fdafe1-841c-494c-814a-c6111fc55e5f</tstamps>
     </comp>
     <comp ref="R7">
       <value>22k</value>
@@ -740,11 +776,40 @@
       <property name="MPN" value="RMCF0603FG22K0"/>
       <property name="JLC_MPN" value="C31850"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a07feb33-5dc0-4c1f-94cd-aa71a7f5cbcf</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C22962</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value=""/>
+      <property name="JLC_MPN" value="C22962"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0125d07-7c61-4245-b72a-2babe1562b6e</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C31850</field>
+        <field name="MPN">RMCF0603FG22K0</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="RMCF0603FG22K0"/>
+      <property name="JLC_MPN" value="C31850"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>966f6e97-61be-48e6-9e55-14ce59026c47</tstamps>
     </comp>
-    <comp ref="R8">
+    <comp ref="R10">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
@@ -754,51 +819,9 @@
       <property name="MPN" value=""/>
       <property name="JLC_MPN" value="C25804"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f6e950d3-301b-43ea-ab29-7a7eadf15bec</tstamps>
-    </comp>
-    <comp ref="R9">
-      <value>470</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="JLC_MPN">C23179</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value=""/>
-      <property name="JLC_MPN" value="C23179"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1d61287d-89fa-4fd3-8caf-6a9f73bc76ff</tstamps>
-    </comp>
-    <comp ref="R10">
-      <value>470</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="JLC_MPN">C23179</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value=""/>
-      <property name="JLC_MPN" value="C23179"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c0125d07-7c61-4245-b72a-2babe1562b6e</tstamps>
-    </comp>
-    <comp ref="R11">
-      <value>470</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="JLC_MPN">C23179</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value=""/>
-      <property name="JLC_MPN" value="C23179"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1f1ee7f5-14cb-4d73-9331-1c39dfbc6cf6</tstamps>
     </comp>
     <comp ref="R12">
       <value>470</value>
@@ -810,11 +833,53 @@
       <property name="MPN" value=""/>
       <property name="JLC_MPN" value="C23179"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c5e9aa3c-e19f-4828-a0db-65ae77b9b54b</tstamps>
+      <tstamps>1d61287d-89fa-4fd3-8caf-6a9f73bc76ff</tstamps>
     </comp>
     <comp ref="R13">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C22765</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value=""/>
+      <property name="JLC_MPN" value="C22765"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16a84131-7055-4741-a879-d77a0bd8341f</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>169</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C22889</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value=""/>
+      <property name="JLC_MPN" value="C22889"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e9bb599-fd1d-42e0-a131-2a061e581ede</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLC_MPN">C22962</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value=""/>
+      <property name="JLC_MPN" value="C22962"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>945fca05-c3f1-47f8-8095-3477bbdb18f4</tstamps>
+    </comp>
+    <comp ref="R16">
       <value>47</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <fields>
@@ -824,26 +889,11 @@
       <property name="MPN" value=""/>
       <property name="JLC_MPN" value="C17969"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e0661712-b730-4a1f-9b4a-65769f4af3da</tstamps>
     </comp>
-    <comp ref="R14">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="JLC_MPN">C21189</field>
-        <field name="MPN">ERJ-3GEY0R00V</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MPN" value="ERJ-3GEY0R00V"/>
-      <property name="JLC_MPN" value="C21189"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>25fdafe1-841c-494c-814a-c6111fc55e5f</tstamps>
-    </comp>
-    <comp ref="R25">
+    <comp ref="R17">
       <value>4.7k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
@@ -854,7 +904,7 @@
       <property name="MPN" value="RMCF0603FT4K70"/>
       <property name="JLC_MPN" value="C23162"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fb316d7b-e280-417a-9111-53cf31dabd09</tstamps>
     </comp>
@@ -869,45 +919,42 @@
       <property name="MPN" value="3314G-1-201E"/>
       <property name="JLC_MPN" value="C52238"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>69db9519-baf3-4252-adcf-fce3a2d540c8</tstamps>
     </comp>
-    <comp ref="TP4">
+    <comp ref="RV2">
+      <value>200</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical</footprint>
+      <fields>
+        <field name="JLC_MPN">C52238</field>
+        <field name="MPN">3314G-1-201E</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <property name="MPN" value="3314G-1-201E"/>
+      <property name="JLC_MPN" value="C52238"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eed955a2-e67f-49b1-acb7-9bf3bcfa6377</tstamps>
+    </comp>
+    <comp ref="TP1">
       <value>DNP</value>
       <footprint>wbraun_smd:THM_MINI</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bed56fdc-a71c-4e54-bde0-7d2d06819820</tstamps>
     </comp>
-    <comp ref="TP6">
+    <comp ref="TP2">
       <value>DNP</value>
       <footprint>wbraun_smd:THM_MINI</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>95803170-27cd-4bc3-ab21-d575a72efff1</tstamps>
-    </comp>
-    <comp ref="TP11">
-      <value>DNP</value>
-      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e65388d6-67ee-41fd-add2-c41e33dcf70e</tstamps>
-    </comp>
-    <comp ref="TP12">
-      <value>DNP</value>
-      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0b6231ae-803a-41d6-9ae2-8a4f74bf556b</tstamps>
     </comp>
     <comp ref="U1">
       <value>TLV2172</value>
@@ -921,27 +968,26 @@
       <property name="MPN" value="TLV2172IDR"/>
       <property name="JLC_MPN" value="C17271"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b81a575a-40cf-4e5d-9f9e-1c70233363ab 96a522de-ce61-46e9-b32b-d7e156576b5e 57f39bf0-b63e-483a-b6af-f6d76015663b</tstamps>
+      <tstamps>96a522de-ce61-46e9-b32b-d7e156576b5e b81a575a-40cf-4e5d-9f9e-1c70233363ab 57f39bf0-b63e-483a-b6af-f6d76015663b</tstamps>
     </comp>
     <comp ref="U2">
       <value>OPA2822</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/opa1604.pdf</datasheet>
       <fields>
-        <field name="JLC_MPN">C408904</field>
         <field name="MPN">OPA2822U</field>
       </fields>
       <libsource lib="Amplifier_Operational" part="OPA1602" description="Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-8/MSOP-8"/>
       <property name="MPN" value="OPA2822U"/>
-      <property name="JLC_MPN" value="C408904"/>
+      <property name="JLC_MPN" value=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c2749543-aa03-4eee-a5fb-3a0611a2beac 42b11ac4-cf35-4fb0-be99-cb9c844dac5b 112ff258-dd47-4875-a258-2304ac0076ad</tstamps>
     </comp>
-    <comp ref="U4">
+    <comp ref="U3">
       <value>MC78L06F-TP</value>
       <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
       <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
@@ -953,11 +999,11 @@
       <property name="MPN" value="MC78L06F-TP"/>
       <property name="JLC_MPN" value="C81358"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>011e3bd2-7e2a-4b88-bf6d-0991a1c728f0</tstamps>
     </comp>
-    <comp ref="U5">
+    <comp ref="U4">
       <value>MC79L06F-TP</value>
       <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
       <datasheet>http://www.farnell.com/datasheets/1827870.pdf</datasheet>
@@ -969,7 +1015,7 @@
       <property name="MPN" value="MC79L06F-TP"/>
       <property name="JLC_MPN" value="C8619"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="File: packaged-amp.kicad_sch"/>
+      <property name="Sheetfile" value="packaged-amp.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4cf97e61-0edd-4bda-b24b-4d224e35b467</tstamps>
     </comp>
@@ -1395,223 +1441,236 @@
   </libraries>
   <nets>
     <net code="1" name="/USB_GND">
-      <node ref="C17" pin="1" pintype="passive"/>
-      <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="L1" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="PS1" pin="2" pinfunction="-Vin" pintype="power_in"/>
     </net>
     <net code="2" name="/USB_PWR">
-      <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="3" name="/VDD_unreg">
-      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
       <node ref="FB1" pin="2" pintype="passive"/>
-      <node ref="U4" pin="3" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="IN" pintype="power_in"/>
     </net>
     <net code="4" name="/VSS_unreg">
-      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
       <node ref="FB2" pin="2" pintype="passive"/>
-      <node ref="U5" pin="2" pinfunction="VI" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="5" name="/int_fb">
       <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
     </net>
     <net code="6" name="/int_out">
-      <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U2" pin="1" pintype="output"/>
     </net>
     <net code="7" name="/out">
-      <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="R13" pin="2" pintype="passive"/>
-      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U2" pin="7" pintype="output"/>
     </net>
     <net code="8" name="/return_kelvin">
-      <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C10" pin="2" pintype="passive"/>
-      <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="E2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Ext" pintype="passive"/>
       <node ref="NT1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="9" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
-      <node ref="C18" pin="1" pintype="passive"/>
-      <node ref="C19" pin="2" pintype="passive"/>
-      <node ref="C28" pin="2" pintype="passive"/>
-      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="C30" pin="2" pintype="passive"/>
-      <node ref="C31" pin="1" pintype="passive"/>
-      <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="C6" pin="1" pintype="passive"/>
-      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="E1" pin="1" pintype="passive"/>
       <node ref="E2" pin="1" pintype="passive"/>
       <node ref="GD1" pin="2" pintype="passive"/>
-      <node ref="J7" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Ext" pintype="passive"/>
       <node ref="NT1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="PS1" pin="5" pinfunction="0V" pintype="power_out"/>
-      <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
       <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
-      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="10" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="C10" pin="1" pintype="passive"/>
-      <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-    </net>
-    <net code="11" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1" pintype="passive"/>
+    <net code="10" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
       <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="PS1" pin="1" pinfunction="+Vin" pintype="power_in"/>
     </net>
-    <net code="12" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1" pintype="passive"/>
+    <net code="11" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
       <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="PS1" pin="6" pinfunction="+Vout" pintype="power_out"/>
     </net>
-    <net code="13" name="Net-(C8-Pad1)">
-      <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="FB1" pin="1" pintype="passive"/>
-      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="14" name="Net-(C14-Pad2)">
-      <node ref="C14" pin="2" pintype="passive"/>
-      <node ref="R14" pin="2" pintype="passive"/>
-    </net>
-    <net code="15" name="Net-(C15-Pad1)">
-      <node ref="C15" pin="1" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="U1" pin="7" pintype="output"/>
-    </net>
-    <net code="16" name="Net-(C15-Pad2)">
-      <node ref="C15" pin="2" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
-    </net>
-    <net code="17" name="Net-(C16-Pad2)">
-      <node ref="C16" pin="2" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="18" name="Net-(C17-Pad2)">
-      <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="C7" pin="2" pintype="passive"/>
+    <net code="13" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="PS1" pin="4" pinfunction="-Vout" pintype="power_out"/>
     </net>
-    <net code="19" name="Net-(C18-Pad2)">
-      <node ref="C18" pin="2" pintype="passive"/>
+    <net code="14" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2" pintype="passive"/>
       <node ref="FB2" pin="1" pintype="passive"/>
       <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(C19-Pad1)">
-      <node ref="C19" pin="1" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
+    <net code="17" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="18" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="21" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R25" pin="1" pintype="passive"/>
+    <net code="20" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="22" name="Net-(E1-Pad2)">
+    <net code="21" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(E1-Pad2)">
       <node ref="E1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="In" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(F1-Pad1)">
+    <net code="24" name="Net-(F1-Pad1)">
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(GD1-Pad1)">
+    <net code="25" name="Net-(GD1-Pad1)">
       <node ref="GD1" pin="1" pintype="passive"/>
-      <node ref="J7" pin="1" pinfunction="In" pintype="passive"/>
-      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(J8-Pad1)">
-      <node ref="J8" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    <net code="26" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(J8-Pad4)">
-      <node ref="J8" pin="4" pinfunction="GND" pintype="power_out"/>
-      <node ref="J8" pin="5" pinfunction="Shield" pintype="passive"/>
+    <net code="27" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="J1" pin="5" pinfunction="Shield" pintype="passive"/>
       <node ref="L1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(R2-Pad2)">
+    <net code="28" name="Net-(R2-Pad2)">
       <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
-    </net>
-    <net code="28" name="Net-(R5-Pad1)">
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
-    </net>
-    <net code="29" name="Net-(R6-Pad2)">
-      <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="30" name="Net-(R11-Pad1)">
-      <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
+    <net code="29" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
     </net>
-    <net code="31" name="Net-(U1-Pad1)">
+    <net code="32" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad1)">
       <node ref="U1" pin="1" pintype="output"/>
       <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="32" name="VDD">
-      <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="C30" pin="1" pintype="passive"/>
-      <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R25" pin="2" pintype="passive"/>
+    <net code="35" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="V+" pintype="power_in"/>
       <node ref="U2" pin="8" pinfunction="V+" pintype="power_in"/>
-      <node ref="U4" pin="1" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U3" pin="1" pinfunction="OUT" pintype="power_out"/>
     </net>
-    <net code="33" name="VSS">
-      <node ref="C13" pin="2" pintype="passive"/>
-      <node ref="C31" pin="2" pintype="passive"/>
-      <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="36" name="VSS">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
       <node ref="U2" pin="4" pinfunction="V-" pintype="power_in"/>
-      <node ref="U5" pin="3" pinfunction="VO" pintype="power_out"/>
+      <node ref="U4" pin="3" pinfunction="VO" pintype="power_out"/>
     </net>
-    <net code="34" name="unconnected-(J8-Pad2)">
-      <node ref="J8" pin="2" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    <net code="37" name="unconnected-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="35" name="unconnected-(J8-Pad3)">
-      <node ref="J8" pin="3" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    <net code="38" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
 </export>
