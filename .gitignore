@@ -9,6 +9,7 @@
 *.kicad_sch-bak
 *fp-info-cache
 pcb/packaged-amp/packaged-amp-backups
+*-backups
 #firmware files
 *.o
 *.d
